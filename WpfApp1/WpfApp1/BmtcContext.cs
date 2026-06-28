@@ -71,7 +71,7 @@ namespace WpfApp1
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=PC;Database=BMTC_DB;Trusted_Connection=True;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Server=.;Database=BMTC_DB;Trusted_Connection=True;TrustServerCertificate=True;");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
